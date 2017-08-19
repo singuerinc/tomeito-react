@@ -1,11 +1,10 @@
 import React from 'react'
-import Clock from './Clock'
+import TomatoesContainer from './TomatoesContainer'
 
-export default (props) => {
-  console.log(props)
+export default () => {
   return (
     <div>
-      <Clock tomato={props.currentTomato} />
+      <TomatoesContainer />
     </div>
   )
 }
